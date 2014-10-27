@@ -7,43 +7,70 @@ body {
 height:100%;
 }
 .stage {
+	position:relative;
 }
     .stage .head {
-        width:396px;
+		position:relative;
+        width: 315px;
         height:512px;
         background: url(../images/head.png) no-repeat;
         margin:auto;
         clear:both;
     }
-    .stage .item {
+	.stage .item_container{
+		width:100%;
+		height:auto;
+		display:inline-block;
+	}
+    .stage .item_container .item {
     float:left;
     }
-    .stage .miller_lite {
+     .stage .item.miller_lite {
         width:43px;
         height:160px;
         background: url(../images/miller_lite.png) no-repeat;
     }
-    .stage .apple {
+     .stage .item.apple {
         width:111px;
         height:124px;
         background: url(../images/apple.png) no-repeat;
     }
-    .stage .cash {
+     .stage .item.cash {
         width:65px;
         height:114px;
         background: url(../images/cash.png) no-repeat;
     }
-    .stage .black_eyes { 
+	 .stage .item.cash_v{
+		width:68px;
+		height:162px;
+		background: url(../images/cash_money_v.png) no-repeat;
+	}
+	 .stage .item.cash_h{
+		width:162px;
+		height:68px;
+		background: url(../images/cash_money_h.png) no-repeat;
+	}
+	 .stage .item.glasses{
+		width:296px;
+		height:105px;
+		background: url(../images/glasses.png) no-repeat;
+	}
+	 .stage .item.parliaments{
+		width:63px;
+		height:94px;
+		background: url(../images/parliaments.jpg) no-repeat;
+	}
+     .stage .item.black_eyes { 
         width: 220px;
         height:39px;
         background: url(../images/black_eyes.png) no-repeat;
     }
-    .stage .zombie_eyes {
+     .stage .item.zombie_eyes {
         width:251px;
         height:70px;
         background: url(../images/zombie_eyes.png) no-repeat;
     }
-    .stage .headband {
+     .stage .item.headband {
         width:377px;
         height:100px;
         background: url(../images/headband.png) no-repeat;
